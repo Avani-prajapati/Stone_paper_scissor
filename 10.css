@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background: url("/background.jpg")no-repeat center top/cover;
+min-height: 100vh;
+}
+.home{
+margin-top: 15rem;}
+.start{
+    display:block;
+    border-radius: 10px;
+    box-shadow: 0 0 0.2rem 0.2rem rgb(40, 40, 112) ;
+    font-size: 1rem;
+  margin: auto;
+  margin-top: 3rem;
+  height: 2rem;
+  width: 5rem;
+  padding: 0.5rem;
+  background-color: rgb(13, 13, 41);
+  color: aliceblue;
+}
+.start:hover{
+ cursor: pointer;
+}
+.taskbar{
+display: flex;
+height: 6rem;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 4rem;
+gap: 10vw;
+align-items: center;
+}
+.taskbar button{
+  box-shadow: 0 0 0.2rem 0.2rem rgb(40, 40, 112) ;
+  height: 2rem;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size:14px;
+  padding: 3px;
+  background-color: rgb(13, 13, 41);
+  color: aliceblue;
+}
+.hide{
+display: none;
+}
+.game{
+margin-top: 3rem;
+}
+.title{
+  background-color: rgb(38, 31, 67);
+  text-align: center;
+  color: aliceblue;
+  height: 8vh;
+  height: fit-content;
+  line-height: 3rem;
+  width: 100vw;
+
+}
+.choose{
+display: flex;
+width: 100%;
+margin-top: 4rem;
+flex-wrap: wrap;
+justify-content: center;
+gap: 4rem;
+}
+.choise:hover{
+border-radius: 30rem;
+background-color: black;
+opacity: 0.9;
+cursor: pointer;
+}
+.img3{
+padding: 0.5rem;
+}
+
+img{
+height: 12rem;
+border-radius: 30rem;
+}
+.score{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: center;
+ color: rgb(4, 28, 49);
+ gap: 5rem;
+ margin-top: 5rem;
+}
+.scoreboard{
+text-align: center;
+}
+h1{
+text-align: center;
+}
+.result{
+  display: flex;
+  justify-content: center;
+   font-size: large;
+  margin-top: 2rem;
+  
+}
+.result-display{
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 30px;
+    background-color: rgb(105, 105, 156);
+    color: aliceblue;
+}
